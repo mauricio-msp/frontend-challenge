@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-primary: #05C46B;
+
+  --color-general: #424242;
+  --color-placeholder: #C4C4C4;
+  --color-border: #AAAAAA;
+  --color-line: #EEEBEB;
+  
+  --white: #FFF;
+}
+
+body {
+  font: 500 16px Roboto, sans-serif;
+  background: #FAFAFA;
+}

@@ -1,35 +1,38 @@
-# frontend-challenge
+## 🔗 Projeto 
+- frontend-challenge é um projeto desenvolvido para cumprir os requisitos do desafio em desenvolvimento Front-End.
 
-- React
-- Material-ui
-- https://reqres.in -> API FAKE
-- Fazer um fork deste repositório.
+## 🚀 Tecnologias
 
-## Criar um SPA com 3 rotas:
+- [ReactJS](https://reactjs.org/)
+- [React Router Dom](https://reactrouter.com/web/guides/quick-start)
+- [Typescript](https://www.typescriptlang.org/)
+- [Material UI](https://material-ui.com/)
+- [axios](https://github.com/axios/axios)
 
-### Home Page - /
+## 💻 Iniciando
 
-Colocar algum conteúdo fake e um button com link para a lista de usuários.
+### Requisitos
 
-### Users Page - /users
+- Você precisa instalar ambos [Node.js](https://nodejs.org/en/download/) e [Yarn](https://yarnpkg.com/) para executar este projeto.
 
-- Buscar lista de usuários em GET `/api/users`.
-- Lista de usuários, pode ser uma table.
-- Cada user deve ter um button com link para a edição dele.
-- Button voltar para home
+**Clone o projeto e acesse a pasta**
 
-### User Edit Page - /users/:userId
+```bash
+$ git clone https://github.com/mauricio-msp/frontend-challenge.git && cd frontend-challenge
+```
 
-- Buscar dados do usuário em GET `/api/users/:userId`.
-- Form para alterar email, first_name e last_name.
-- Fazer request para atualizar usuário em PUT `/api/users/:userId`,
-  adicionar um mensagem informando o sucesso|erro.
-- Button voltar para users.
+**Siga os passos abaixo**
+
+```bash
+# Instale as dependências
+$ yarn
+
+# Execute o servidor web
+$ yarn start
+```
+
+O aplicativo estará disponível para acesso em seu navegador em `http://localhost:3000`
 
 ---
 
-Aqui na Gofind a gente trabalha com UX portanto no arquivo [SPECS.md](SPECS.md) você vai encontrar as especificações de UX para o desafio. Nas especificações você vai encontrar a tela de lista de usuários sugerida, e a partir dela, em conjunto com as especificações você deve criar as telas adicionais.
-
----
-
-Lembrando que não precisa estar perfeito, é uma sugestão mostrando um pouco de como nós trabalhamos, mas é um bônus bem grande seguir as especificações.
+Feito por Maurício Porfírio 👋 [Confira meu LinkedIn](https://www.linkedin.com/in/mauricio-porfirio-673857105/)
